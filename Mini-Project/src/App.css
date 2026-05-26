@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+  background: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.form input {
+  padding: 10px;
+}
+
+.form button {
+  background: dodgerblue;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.notes {
+  width: 600px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card button {
+  margin-right: 10px;
+}
